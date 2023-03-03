@@ -1,0 +1,16 @@
+host_checking= false
+time_out 100
+inventory= 
+retires 5
+command_timeout 100
+
+-------------
+ansible-doc -t connection -l # to check the connections in ansible
+
+
+ansible_connection: network_cli
+
+
+ansible_user
+ansible_password:
+ansible_network_os: ios
