@@ -1,2 +1,3 @@
 $ ansible-playbook playbook_name --synta-check      # to check the syntax check in ansible
+
 $ ansible-playbook playbookname -vvvv               # to check the brief output
